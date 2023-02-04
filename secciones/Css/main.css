@@ -6,9 +6,6 @@
 
 /* Header*/
 .caja_header{
-    border-style: solid;
-    border-width: 3px;
-    border-color: blue;
     width: 90%;
     display: flex;
     background-color: rgb(12, 25, 55);
@@ -17,9 +14,6 @@
    }
 
 .caja_logo{
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgb(176, 16, 59);
     width: 20%;
     display: flex;
     justify-content: center;
@@ -27,9 +21,6 @@
 }
 
 .caja_portada{
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgb(9, 83, 33);
     width: 60%;
     display: flex;
     justify-content: center;
@@ -37,18 +28,12 @@
 }
 
 .caja_derecha{
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgb(9, 83, 33);
     width: 20%;
     display: flex;
     flex-direction: column;
 }
 
 .caja_logoschicos{
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgb(172, 181, 19);
     width: 100%;
     height: 90px;
     display: flex; 
@@ -57,9 +42,6 @@
 }
 
 .logona{
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgb(165, 13, 140);
     width: 100%;
     transition: transform 5s, width 2s;
     }
@@ -70,10 +52,7 @@
     }
 
 .imgportada{
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgb(165, 13, 140);
-    width:90%
+        width:90%
     }
 
 .logo_chico{
@@ -86,14 +65,29 @@
     }
 
 .caja_animacion{
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgb(165, 13, 140);
     height: 160px;
     display: flex;
     }
 
-.logos_animacion {
+.logos_animacion1 {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logos_animacion2 {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logos_animacion3 {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logos_animacion4 {
     width:100%;
     display: flex;
     flex-direction: column;
@@ -124,8 +118,8 @@
 
 /*ANIMACION*/
 
-/* The animation code */
-@keyframes example {
+
+@keyframes ani1 {
     0%   {background-color:rgb(181, 237, 248);  top:0px;}
     25%  {background-color:rgb(173, 182, 237);  top:15%;}
     50%  {background-color:rgb(235, 184, 219);  top:35%;}
@@ -133,17 +127,69 @@
     100% {background-color:rgb(227, 232, 194); ; top:65%;}
   }
   
-  /* The element to apply the animation to */
-  .logos_animacion {
+  
+  .logos_animacion1 {
         position: relative;
     background-color: rgb(127, 178, 220);
-    animation-name: example;
-    animation-duration: 4s;
+    animation-name: ani1;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
   }
 
+  @keyframes ani4 {
+    0%   {background-color:rgb(181, 237, 248);  top:50%;}
+    25%  {background-color:rgb(173, 182, 237);  top:65%;}
+    50%  {background-color:rgb(235, 184, 219);  top:0%;}
+    75%  {background-color:rgb(233, 193, 193);  top:15%;}
+    100% {background-color:rgb(227, 232, 194);  top:35%;}
+  }
+  
+  
+  .logos_animacion4 {
+        position: relative;
+    background-color: rgb(127, 178, 220);
+    animation-name: ani4;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
 
+  @keyframes ani2 {
+    0%   {background-color:rgb(181, 237, 248);  top:15%;}
+    25%  {background-color:rgb(173, 182, 237);  top:35%;}
+    50%  {background-color:rgb(235, 184, 219);  top:50%;}
+    75%  {background-color:rgb(233, 193, 193);  top:65%;}
+    100% {background-color:rgb(227, 232, 194);  top:0%;}
+  }
+  
+  
+  .logos_animacion2 {
+        position: relative;
+    background-color: rgb(127, 178, 220);
+    animation-name: ani2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes ani3 {
+    0%   {background-color:rgb(181, 237, 248);  top:35%;}
+    25%  {background-color:rgb(173, 182, 237);  top:50%;}
+    50%  {background-color:rgb(235, 184, 219);  top:65%;}
+    75%  {background-color:rgb(233, 193, 193); ; top:0%;}
+    100% {background-color:rgb(227, 232, 194); ; top:15%;}
+  }
+  
+  
+  .logos_animacion3 {
+        position: relative;
+    background-color: rgb(127, 178, 220);
+    animation-name: ani3;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }  
 
 
 /*Navegador*/
