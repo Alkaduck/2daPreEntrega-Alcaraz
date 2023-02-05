@@ -56,11 +56,15 @@
     }
 
 .logo_chico{
-    width: 33%;
-    
+    width: 100%;
     background-color: rgb(12, 25, 55);
     display: flex;
     }
+
+.link_logo_chico{
+    width: 33%;
+    display: flex;
+}
 
 .caja_animacion{
     height: 160px;
