@@ -439,3 +439,19 @@ width: 90% !important;
 
 
 .mb-3 {margin: 10px;}
+
+.formconta{width: 40%;
+          height: auto;
+          border-style: solid;
+          border-color: blue;
+          border-width: 4px;
+          margin: auto;
+}
+
+.formnuevusu{width: 90%;
+    height: auto;
+    border-style: solid;
+    border-color: blue;
+    border-width: 4px;
+    margin: auto;
+}
