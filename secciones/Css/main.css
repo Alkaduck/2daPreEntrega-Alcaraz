@@ -38,7 +38,7 @@ body {background-color: rgb(241, 243, 199);}
 
 .caja_logoschicos{
     width: 100%;
-    height: 90px;
+    height: auto;
     display: flex; 
     justify-content: center;  
     
@@ -268,7 +268,7 @@ margin: auto;
     
 }
 
-/*Productos*/
+/*Productos
 .caja_productos{
         display: grid;
         grid-template-columns: auto 90px auto 90px auto 90px;
@@ -340,8 +340,6 @@ margin: auto;
 .textoc11{border-style: solid;
                 border-width: 3px;
                 border-color: rgb(35, 15, 116);
-                width: 210px;
-                height: 20px;
                 grid-column:1/2 ;
                 grid-row: 2/3;
                         }
@@ -349,8 +347,6 @@ margin: auto;
 .textoc12{border-style: solid;
                 border-width: 3px;
                 border-color: rgb(35, 15, 116);
-                width: 210px;
-                height: 20px;
                 grid-column:3/4 ;
                 grid-row: 2/3;
                         }
@@ -358,8 +354,6 @@ margin: auto;
 .textoc13{border-style: solid;
                 border-width: 3px;
                 border-color: rgb(35, 15, 116);
-                width: 210px;
-                height: 20px;
                 grid-column:5/6 ;
                 grid-row:2/3 ;
                         }
@@ -367,8 +361,6 @@ margin: auto;
 .textoc21 {border-style: solid;
                 border-width: 3px;
                 border-color: rgb(35, 15, 116);
-                width: 210px;
-                height: 20px;
                 grid-column:1/2 ;
                 grid-row:4/5 ;
                         }
@@ -376,8 +368,6 @@ margin: auto;
 .textoc22{border-style: solid;
                 border-width: 3px;
                 border-color: rgb(35, 15, 116);
-                width: 210px;
-                height: 20px;
                 grid-column:3/4 ;
                 grid-row:4/5 ;
                         }
@@ -385,8 +375,6 @@ margin: auto;
 .textoc23{border-style: solid;
                 border-width: 3px;
                 border-color: rgb(35, 15, 116);
-                width: 210px;
-                height: 20px;
                 grid-column:5/6 ;
                 grid-row:4/5 ;
                         }
@@ -433,7 +421,7 @@ margin: auto;
             grid-column:6/7 ;
             grid-row:3/4 ;
                 }  
-                
+*/                
 input {margin-left: 11px;
 }
 
@@ -457,27 +445,27 @@ label {margin-left: 11px;
 }
 
 .textoface{
-       margin:auto 0 auto 0;
+       margin:20px 0 auto 0;
    }
    
 .textoubi{
-       margin:auto 0 auto 0;
+       margin:20px 0 auto 0;
    }
    
 .textoinsta{
-       margin:auto 0 auto 0;
+       margin:20px 0 auto 0;
    }
    
 .textocont{
-       margin:auto 0 auto 0;
+       margin:20px 0 auto 0;
    }
    
 .textowap{
-       margin:auto 0 auto 0;
+       margin:20px 0 auto 0;
    }
 
 .foottext {
-    color: whitesmoke;
+    color: white;
     font-size: medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -504,3 +492,34 @@ label {width: 100px;}
     border-width: 5px;
    width: max-content;
     justify-content: center; }
+
+.baseproducto{
+    border-style: solid;
+    border-width: 2px;
+    border-color:rgb(254, 255, 255); 
+    
+}
+
+.imgprod {
+    position: relative; left:40px; 
+}
+
+.textoprod {
+    border-right: ;
+    border-style: solid;
+    border-width: 3px;
+    border-color:rgb(17, 28, 56);
+    color: white;
+}
+
+.container {background-color: rgb(17, 28, 56);}   
+
+.cajaformini{
+    width: 90%;
+    border-style: solid;
+    border-width: 2px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;}
+
+    .mb-3 {margin: 10px;}
